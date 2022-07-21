@@ -1,0 +1,227 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+    background-color: rgb(240, 240, 240);
+}
+
+body>* {
+    padding: 0 1em;
+}
+
+
+/*L'en-tête de la page*/
+
+.wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    background-color: #00a15e;
+    color: #fff;
+    padding: 2rem 1rem;
+    line-height: 4rem;
+    box-shadow: 2px 4px 8px 0px rgb(219, 219, 219);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header p {
+    font-size: 1.2rem;
+    letter-spacing: 0.07rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/*main*/
+
+main {
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    background-color: #a14800;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: .5rem 1rem;
+}
+
+table {
+    margin: 0 auto;
+    box-shadow: 0px 0px 8px 0px rgb(219, 219, 219);
+    border: 7px double #00a15e;
+}
+
+table tr td {}
+
+table tr td input {
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid #a0a0a0;
+}
+
+table .case-0-2 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-1-2 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-2-2 {
+    border-right: 1.7px solid #000000;
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-2-1 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-2-0 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-5-1 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-5-0 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-2-3 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-2-4 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-2-5 {
+    border-right: 1.7px solid #000000;
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-0-5 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-1-5 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-3-5 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-4-5 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-5-5 {
+    border-right: 1.7px solid #000000;
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-6-5 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-7-5 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-8-5 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-2-6 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-2-7 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-2-8 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-5-8 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-5-7 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-5-6 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-5-4 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-5-3 {
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-3-2 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-4-2 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-5-2 {
+    border-right: 1.7px solid #000000;
+    border-bottom: 1.7px solid #000000;
+}
+
+table .case-6-2 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-7-2 {
+    border-right: 1.7px solid #000000;
+}
+
+table .case-8-2 {
+    border-right: 1.7px solid #000000;
+}
+
+footer {
+    background-color: #00a15e;
+    color: #fff;
+    font-size: 1em;
+    padding: 2rem 0;
+    text-align: center;
+}
